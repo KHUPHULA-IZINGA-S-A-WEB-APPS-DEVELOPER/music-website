@@ -3,22 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login - Music World</title>
+    <title>Register - Music World</title>
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
     <header>
-        <h1>Login to Music World</h1>
-        <a href="register.html">Register</a>
+        <h1>Create Your Account</h1>
         <a href="index.html">Home</a>
     </header>
     <main>
-        <form id="loginForm">
+        <form id="registerForm">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
             <label for="email">Email:</label>
             <input type="email" id="email" name="email" required>
             <label for="password">Password:</label>
             <input type="password" id="password" name="password" required>
-            <button type="submit">Login</button>
+            <button type="submit">Register</button>
         </form>
     </main>
     <script src="assets/js/script.js"></script>
